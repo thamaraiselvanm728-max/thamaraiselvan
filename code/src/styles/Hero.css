@@ -1,0 +1,63 @@
+.hero-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-bottom: 3px solid #000;
+  padding-bottom: 3vh;
+  margin: 0 2vw;
+  gap: 2vw;
+}
+
+.hero-featured-dish {
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero-featured-dish img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+
+.hero-featured-dish:hover {
+  transform: scale(1.025);
+}
+
+.hero-featured-dish h3 {
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+  color: #222;
+  font-weight: 600;
+}
+
+.hero-dish-grid {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 2%;
+}
+
+.hero-dish-card {
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero-dish-card:hover {
+  transform: scale(1.03);
+}
+
+.hero-dish-card img {
+  width: 100%;
+  height: 28vh;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+
+.hero-dish-card p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #444;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (m)
